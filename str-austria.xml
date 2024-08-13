@@ -1,0 +1,105 @@
+<reportdata>
+	<transaction>
+		<transactionnumber>TXN-82-20090121</transactionnumber>
+		<internal_ref_number></internal_ref_number>
+		<transaction_location>LOCATION</transaction_location>
+		<transaction_description>OWN PURCHASE FOREIGN BILLS</transaction_description>
+		<date_transaction>2016-01-21T00:00:00</date_transaction>
+		<transmode_code>TMM01</transmode_code>
+		<amount_local>2026.94</amount_local>
+		<t_from_my_client>
+			<!-- End For each conductor -->
+			<!-- End If str_conductor size -->
+			<!-- If From Party Type = Account -->
+			<from_account>
+				<institution_name>NAME</institution_name>
+				<institution_code>CODE</institution_code>
+				<branch>000011</branch>
+				<account>ACCTEST-250-20090109</account>
+				<currency_code>USD</currency_code>
+				<related_persons>
+					<account_related_person>
+						<t_person>
+							<gender>M</gender>
+							<title>Mr</title>
+							<first_name>SALIM Y SALAMUDDIN JULKIPLI SALIM Y SALAMUDDIN</first_name>
+							<last_name>NMAE</last_name>
+							<birthdate>2024-08-21T21:00:00.000Z</birthdate>
+							<country_of_birth>AE</country_of_birth>
+							<full_name_frn>SALIM Y SALAMUDDIN JULKIPLI SALIM Y SALAMUDDIN</full_name_frn>
+							<residence>AF</residence>
+							<phones>
+								<phone>
+									<tph_contact_type>PAT02</tph_contact_type>
+									<tph_communication_type>COM01</tph_communication_type>
+									<tph_country_prefix>269</tph_country_prefix>
+									<tph_number>232 47931544066</tph_number>
+									<tph_extension>3669</tph_extension>
+								</phone>
+								<!-- For each person phone -->
+							</phones>
+							<addresses>
+								<address>
+									<address_type>PAT02</address_type>
+									<address>Kolola Pushta Street</address>
+									<city>City</city>
+									<zip>555000</zip>
+									<country_code>AF</country_code>
+								</address>
+								<!-- For each person address -->
+							</addresses>
+							<occupation>POLITICIAN</occupation>
+						</t_person>
+					</account_related_person>
+				</related_persons>
+				<balance>26516.51</balance>
+			</from_account>
+			<!-- if party type = Person -->
+			<!-- If party type = Entity -->
+			<from_country>AF</from_country>
+		</t_from_my_client>
+		<t_to>
+			<!-- if party type = Account -->
+			<to_account>
+				<institution_name>NAME</institution_name>
+				<swift>SWIFT</swift>
+				<account>ACC-765-2003726</account>
+				<account_name>IDOLA ZIMMERMAN-ACC-765-2003726</account_name>
+				<related_persons>
+					<account_related_person>
+						<t_person>
+							<gender>K</gender>
+							<first_name>Idola Zimmerman</first_name>
+							<last_name>NAME</last_name>
+							<residence>HR</residence>
+							<phones>
+								<phone>
+									<tph_contact_type>PAT02</tph_contact_type>
+									<tph_communication_type>COM01</tph_communication_type>
+									<tph_country_prefix>269</tph_country_prefix>
+									<tph_number>232 47931544066</tph_number>
+									<tph_extension>3669</tph_extension>
+								</phone>
+								<!-- For each person phone -->
+							</phones>
+							<addresses>
+								<address>
+									<address_type>PAT02</address_type>
+									<address>2868 MODERNS STREET</address>
+									<city>London</city>
+									<zip>78-100</zip>
+									<country_code>HR</country_code>
+								</address>
+								<!-- For each person address -->
+							</addresses>
+						</t_person>
+					</account_related_person>
+				</related_persons>
+				<balance></balance>
+			</to_account>
+			<!-- if party type = Person -->
+			<!-- If party type = Entity -->
+			<to_country>AD</to_country>
+		</t_to>
+	</transaction>
+</reportdata>
